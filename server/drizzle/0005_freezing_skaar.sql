@@ -1,0 +1,1 @@
+ALTER TABLE "staff_invitation" ALTER COLUMN "role" SET DATA TYPE "public"."membership_role" USING "role"::"public"."membership_role";
